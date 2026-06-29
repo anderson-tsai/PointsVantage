@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PointsVantage — Maximize Every Swipe</title>
+  <meta name="description" content="The AI-powered app that selects the best credit card for every purchase, tracks your points, and optimizes your travel rewards." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─────────────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">PV</span>
+        <span class="logo-text">PointsVantage</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#stats">Impact</a></li>
+      </ul>
+      <a href="#download" class="btn btn-primary btn-sm">Get the App</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text fade-up">
+        <div class="hero-badge">✦ AI-Powered Rewards Optimization</div>
+        <h1 class="hero-headline">
+          Maximize<br />
+          <span class="gradient-text">Every Swipe.</span>
+        </h1>
+        <p class="hero-sub">
+          PointsVantage automatically selects the best credit card at checkout,
+          tracks your points across every card, and finds the highest-value
+          travel redemptions — all powered by AI.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            App Store
+          </a>
+          <a href="#download" class="btn btn-secondary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 18.5v-13c0-.83.94-1.3 1.6-.8l11 6.5c.6.36.6 1.24 0 1.6l-11 6.5c-.66.5-1.6.03-1.6-.8z"/></svg>
+            Google Play
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual fade-up-delay">
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <div class="screen-header">
+              <span class="screen-title">Smart Pay</span>
+              <span class="screen-sub">Starbucks · Coffee</span>
+            </div>
+            <div class="card-carousel">
+              <div class="card-item card-best">
+                <div class="card-chip"></div>
+                <div class="card-info">
+                  <span class="card-name">Amex Gold</span>
+                  <span class="card-rate">4x points</span>
+                </div>
+                <div class="card-badge">Best</div>
+              </div>
+              <div class="card-item card-second">
+                <div class="card-chip"></div>
+                <div class="card-info">
+                  <span class="card-name">Chase Sapphire</span>
+                  <span class="card-rate">3x points</span>
+                </div>
+              </div>
+              <div class="card-item card-third">
+                <div class="card-chip"></div>
+                <div class="card-info">
+                  <span class="card-name">Citi Double Cash</span>
+                  <span class="card-rate">2x points</span>
+                </div>
+              </div>
+            </div>
+            <div class="screen-footer">
+              <div class="earn-pill">
+                <span class="earn-icon">⚡</span>
+                <span>You'll earn <strong>4,200 pts</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-badge badge-top">
+          <span class="badge-icon">✦</span>
+          <span>+4x at Dining</span>
+        </div>
+        <div class="floating-badge badge-bottom">
+          <span class="badge-icon">✈️</span>
+          <span>Transfer to United</span>
+        </div>
+        <div class="floating-badge badge-left">
+          <span class="badge-icon">🤖</span>
+          <span>Max recommends…</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ─── FEATURES ──────────────────────────────────────────────────────── -->
+  <section class="features" id="features">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <div class="section-tag">Features</div>
+        <h2 class="section-title">Everything you need to <span class="gradient-text">earn more.</span></h2>
+        <p class="section-sub">Six powerful tools working together to maximize every dollar you spend.</p>
+      </div>
+      <div class="features-grid">
+
+        <div class="feature-card feature-large fade-up">
+          <div class="feature-icon-wrap" style="--icon-color: #6366F1">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="feature-title">Smart Pay</h3>
+          <p class="feature-desc">At every checkout, PointsVantage detects the merchant category via GPS and Google Places, then instantly ranks your linked cards by earning rate — so you always tap the highest-multiplier card.</p>
+          <div class="feature-highlight">
+            <span class="highlight-stat">Up to 5x</span>
+            <span class="highlight-label">more points per purchase</span>
+          </div>
+        </div>
+
+        <div class="feature-card fade-up" style="--delay: 0.1s">
+          <div class="feature-icon-wrap" style="--icon-color: #F59E0B">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <h3 class="feature-title">Card Dashboard</h3>
+          <p class="feature-desc">All your balances, offers, and earning history unified in one view. Linked via Plaid — always current, always accurate.</p>
+        </div>
+
+        <div class="feature-card fade-up" style="--delay: 0.2s">
+          <div class="feature-icon-wrap" style="--icon-color: #10B981">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+          <h3 class="feature-title">Card Recommender</h3>
+          <p class="feature-desc">Upload your spending history and our AI calculates which new card would earn you the most rewards — before you apply.</p>
+        </div>
+
+        <div class="feature-card fade-up" style="--delay: 0.05s">
+          <div class="feature-icon-wrap" style="--icon-color: #EC4899">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 class="feature-title">Max — AI Assistant</h3>
+          <p class="feature-desc">Your personal points advisor, powered by Claude. Ask Max anything: which card to use, when to transfer, which redemption gives the best value.</p>
+        </div>
+
+        <div class="feature-card fade-up" style="--delay: 0.15s">
+          <div class="feature-icon-wrap" style="--icon-color: #06B6D4">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.19h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.47a16 16 0 0 0 5.35 5.35l1.54-1.54a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 14a2 2 0 0 1 .27 2.92z"/></svg>
+          </div>
+          <h3 class="feature-title">Travel Finder</h3>
+          <p class="feature-desc">Search 32+ airline and hotel transfer partners and find the path that stretches your points furthest for any destination.</p>
+        </div>
+
+        <div class="feature-card fade-up" style="--delay: 0.25s">
+          <div class="feature-icon-wrap" style="--icon-color: #8B5CF6">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3 class="feature-title">News &amp; Shorts</h3>
+          <p class="feature-desc">Real-time alerts on devaluations, new offers, and limited-time bonuses. Plus a vertical video feed from top points creators.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HOW IT WORKS ─────────────────────────────────────────────────── -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <div class="section-tag">Process</div>
+        <h2 class="section-title">Up and running <span class="gradient-text">in minutes.</span></h2>
+      </div>
+      <div class="steps">
+        <div class="step fade-up" style="--delay: 0s">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3 class="step-title">Link Your Cards</h3>
+            <p class="step-desc">Securely connect your credit cards via Plaid. PointsVantage imports your spending history and point balances automatically — read-only, never transactional.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step fade-up" style="--delay: 0.15s">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3 class="step-title">Pay Smarter</h3>
+            <p class="step-desc">Open Smart Pay at any merchant. The app detects where you are and ranks your cards by earning rate in real time. Tap the winner.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step fade-up" style="--delay: 0.3s">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3 class="step-title">Redeem Brilliantly</h3>
+            <p class="step-desc">Use Travel Finder and Max AI to route your points through the best transfer partner for your next trip — and never leave value on the table.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── STATS ─────────────────────────────────────────────────────────── -->
+  <section class="stats" id="stats">
+    <div class="section-inner">
+      <div class="stats-grid">
+        <div class="stat-item fade-up">
+          <div class="stat-value" data-target="200">0</div>
+          <div class="stat-label">Credit Cards Supported</div>
+        </div>
+        <div class="stat-item fade-up" style="--delay: 0.1s">
+          <div class="stat-value" data-target="32">0</div>
+          <div class="stat-label">Transfer Partners</div>
+        </div>
+        <div class="stat-item fade-up" style="--delay: 0.2s">
+          <div class="stat-value" data-target="500">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Avg. Annual Savings</div>
+          <div class="stat-prefix">$</div>
+        </div>
+        <div class="stat-item fade-up" style="--delay: 0.3s">
+          <div class="stat-value" data-target="5">0</div>
+          <div class="stat-suffix">x</div>
+          <div class="stat-label">Points Multiplier at Peak</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ─────────────────────────────────────────────────── -->
+  <section class="testimonials">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <div class="section-tag">Early Users</div>
+        <h2 class="section-title">People are already <span class="gradient-text">earning more.</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-up">
+          <div class="stars">★★★★★</div>
+          <blockquote>"I had no idea my Amex Gold gave 4x on coffee. Smart Pay surfaced that in the first five minutes. Game changer."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">JM</div>
+            <div>
+              <div class="author-name">Jordan M.</div>
+              <div class="author-role">Frequent Traveler</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-up" style="--delay: 0.1s">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Max found me a 2cpp United redemption I never would have discovered on my own. Booked a business class flight with points I thought were worthless."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">SP</div>
+            <div>
+              <div class="author-name">Sarah P.</div>
+              <div class="author-role">Points Enthusiast</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-up" style="--delay: 0.2s">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The card recommender told me to get the Chase Sapphire Preferred based on my dining spend. The signup bonus alone was worth $750."</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar">AR</div>
+            <div>
+              <div class="author-name">Alex R.</div>
+              <div class="author-role">Credit Card Optimizer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── DOWNLOAD CTA ───────────────────────────────────────────────────── -->
+  <section class="download" id="download">
+    <div class="download-blob"></div>
+    <div class="section-inner">
+      <div class="download-content fade-up">
+        <h2 class="download-title">Start maximizing<br /><span class="gradient-text">your rewards today.</span></h2>
+        <p class="download-sub">Free to download. No credit card required to get started.</p>
+        <div class="download-actions">
+          <a href="#" class="btn btn-primary btn-lg">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            Download on App Store
+          </a>
+          <a href="#" class="btn btn-outline btn-lg">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.3.17.64.24.99.2l12.69-7.33-2.79-2.79-10.89 9.92zM.27 1.5C.1 1.83 0 2.22 0 2.66v18.68c0 .44.1.83.27 1.16l.06.06 10.46-10.46v-.24L.33 1.44l-.06.06zM20.67 10.43l-2.87-1.66-3.13 3.13 3.13 3.12 2.9-1.67c.83-.48.83-1.25-.03-1.92zM4.17.24L16.86 7.57l-2.79 2.79L3.18.64C3.48.2 3.87.07 4.17.24z"/></svg>
+            Get it on Google Play
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="section-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-mark">PV</span>
+            <span class="logo-text">PointsVantage</span>
+          </a>
+          <p class="footer-tagline">Maximize every swipe.</p>
+        </div>
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <div class="footer-col-title">Product</div>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#download">Download</a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Company</div>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Legal</div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 PointsVantage. All rights reserved.</span>
+        <span>Made with ♥ to maximize rewards</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
